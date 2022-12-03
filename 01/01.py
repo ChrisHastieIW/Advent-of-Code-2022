@@ -6,7 +6,7 @@ import pandas
 # Determine input file location
 input_file = "01\input.txt"
 
-# Ingest file into series
+# Ingest file into dataframe
 df_calories = pandas.read_csv(input_file, header=None, names=["calories"], skip_blank_lines=False)
 
 # Investigate dataframe
